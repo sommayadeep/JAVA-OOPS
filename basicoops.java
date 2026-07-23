@@ -20,7 +20,7 @@ public class basicoops {
 
         pen1.write();  // It print only "Output something"
 
-        pen1.printcolour();
+        pen1.printcolour();  // call the function of printcolour to print the pen1
 
 
 
@@ -28,7 +28,7 @@ public class basicoops {
         pen2.colour = "black";
         pen2.type = "gel";
 
-        pen2.printcolour();
+        pen2.printcolour(); // call the function of printcolour to print the pen2
     }
     
 }
