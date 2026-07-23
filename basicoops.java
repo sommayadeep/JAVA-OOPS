@@ -19,6 +19,8 @@ public class basicoops {
         pen1.type = "ball pen";
 
         pen1.write();  // It print only "Output something"
+
+        pen1.printcolour();
     }
     
 }
