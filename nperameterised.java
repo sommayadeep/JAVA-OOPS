@@ -14,7 +14,7 @@ class Student{
 }
 public class nperameterised {
     public static void main(String[] args){
-        Student s1 = new Student("Deep" , 20);
+        Student s1 = new Student("Deep" , 21);
     
         s1.print();
 
