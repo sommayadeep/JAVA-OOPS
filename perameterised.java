@@ -12,9 +12,9 @@ class Student{
         System.out.println(this.age);
     }
 }
-public class nperameterised {
+public class perameterised {
     public static void main(String[] args){
-        Student s1 = new Student("Deep" , 21);
+        Student s1 = new Student("Deep" , 20);
     
         s1.print();
 
