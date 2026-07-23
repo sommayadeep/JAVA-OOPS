@@ -8,11 +8,12 @@ class Student{
     }
 }
 public class nperameterised {
-    public static void Student(String aurgs[]){
+    public static void Student(String args[]){
         Student s1 = new Student();
         s1.name = "Deep";
         s1.age = 20;
-
+    
+        s1.print();
 
     }
 }
