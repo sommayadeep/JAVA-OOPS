@@ -23,5 +23,7 @@ public void main(String args[]){
     s1.age = 20;
 
     s1.printInfo(s1.name , s1.age);
+    s1.printInfo(s1.name);
+    s1.printInfo( s1.age);
 
 }
