@@ -14,7 +14,7 @@ class Pen{
 
 
 public class basicoops {
-    public static void main(String aurgs[]){
+    public static void main(String args[]){
         Pen pen1 = new Pen();
         pen1.colour = "blue";
         pen1.type = "ball pen";
