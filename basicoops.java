@@ -21,6 +21,14 @@ public class basicoops {
         pen1.write();  // It print only "Output something"
 
         pen1.printcolour();
+
+
+
+        Pen pen2 = new Pen();
+        pen2.colour = "black";
+        pen2.type = "gel";
+
+        pen2.printcolour();
     }
     
 }
