@@ -9,6 +9,10 @@ class Student{
     public static void printInfo(int age){
     System.out.println(age);
     }
+
+     public static void printInfo(String name,int age){
+    System.out.println(name + "" + age);
+    }
     
     
 }
@@ -18,6 +22,6 @@ public void main(String args[]){
     s1.name = "Deep";
     s1.age = 20;
 
-    s1.printInfo(s1.name);
+    s1.printInfo(s1.name , s1.age);
 
 }
