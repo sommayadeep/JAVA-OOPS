@@ -8,6 +8,7 @@ class Pen{
 
     public void printcolour(){
         System.out.println(this.colour);  //this. is used for calling the colour part
+        System.out.println(this.type); 
     }
 }
 
