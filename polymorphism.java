@@ -9,9 +9,11 @@ class Student{
     public static void printInfo(int age){
     System.out.println(age);
     }
+    
+    
 }
 
-public static void main(String args[]){
+public void main(String args[]){
     Student s1 = new Student();
     s1.name = "Deep";
     s1.age = 20;
