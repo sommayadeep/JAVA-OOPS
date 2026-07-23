@@ -16,8 +16,8 @@ class Student{
 
 
 
-        Student (Student s2){
-        this.name = s2.name;
+        Student (Student s2){    //-------Copy constructor--------
+        this.name = s2.name; 
         this.age = s2.age;
     }
     Student(){
