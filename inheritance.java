@@ -28,6 +28,6 @@ public class inheritance{
     public static void main (String[] args){
         B b1 = new B(30,40,50);
         b1.showk();
-        b1.show()
+        b1.show();
     }
 }
