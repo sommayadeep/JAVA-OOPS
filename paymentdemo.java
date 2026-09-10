@@ -4,7 +4,7 @@ class Payment{
     }
 }
 class CreditCardpayment extends Payment {
-    @Override
+    
     void pay(double amount) {
         System.out.println("payment method: Credit Card");
         System.out.println("payment of rs:" + amount);
@@ -12,7 +12,7 @@ class CreditCardpayment extends Payment {
 }
 
 class UPIpayment extends Payment {
-    @Override
+    
     void pay(double amount) {
         System.out.println("payment method: UPI");
         System.out.println("payment of rs:" + amount);
